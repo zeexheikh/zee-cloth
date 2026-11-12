@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rang Mahal Cloth House</title>
+<meta name="description" content="Lawn, cotton, khaddar and formal fabric sold by the meter.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Young+Serif&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <a class="logo" href="#">Rang Mahal</a>
+  <nav><a href="#fabrics">Fabrics</a><a href="#visit">Visit us</a></nav>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Fabric by the meter, cut while you wait.</h1>
+      <p>Lawn, cotton, khaddar and formal cloth from our shop in Lahore. Pick a swatch, tell us how many meters, and we will have it ready.</p>
+      <a class="btn" href="#fabrics">See fabrics</a>
+    </div>
+    <div class="swatches" aria-hidden="true">
+      <i class="sw p-stripe" style="--a:#23306B;--b:#F3F5F7"></i>
+      <i class="sw p-dots" style="--a:#B8323F;--b:#F3C9CD"></i>
+      <i class="sw p-check" style="--a:#1F5B4A;--b:#CFE3DA"></i>
+      <i class="sw p-plain" style="--a:#E9A920"></i>
+      <i class="sw p-check" style="--a:#23306B;--b:#C9D0EA"></i>
+      <i class="sw p-stripe" style="--a:#B8323F;--b:#F3F5F7"></i>
+    </div>
+  </section>
+  <div class="ruler" aria-hidden="true"></div>
+
+  <section id="fabrics" class="fabrics">
+    <h2>Our fabrics</h2>
+    <div class="filters" role="group" aria-label="Filter fabrics">
+      <button class="on" data-f="all">All</button>
+      <button data-f="Summer">Summer</button>
+      <button data-f="Winter">Winter</button>
+      <button data-f="Formal">Formal</button>
+    </div>
+    <div id="grid" class="grid"></div>
+  </section>
+
+  <section id="visit" class="visit">
+    <div>
+      <h2>Visit the shop</h2>
+      <p>Shop 12, Main Bazaar, Lahore</p>
+      <p>Open every day, 10 am to 9 pm. Friday 2 pm to 9 pm.</p>
+      <p>Phone: 0300 0000000</p>
+    </div>
+    <a class="btn" id="wa-general" href="#">Message us on WhatsApp</a>
+  </section>
+</main>
+
+<footer>© <span id="yr"></span> Rang Mahal Cloth House</footer>
+<script src="script.js"></script>
+</body>
+</html>
